@@ -7,7 +7,7 @@ class Hand
   end
 
   def k_q_j_cards?(card)
-    card.include?('K') || card.include?('Q') || card.include?('J')
+git    card.include?('K') || card.include?('Q') || card.include?('J')
   end
 
   def numeric_card?(card)
@@ -37,4 +37,3 @@ end
 deck = Deck.new
 cards = deck.deal(2)
 hand = Hand.new(cards)
-# hand.calculate_score # Get this working properly

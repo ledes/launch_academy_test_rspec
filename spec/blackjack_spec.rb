@@ -66,7 +66,7 @@ describe Hand do
   describe "#k_q_j_cards?(card)" do
     it "passes" do
       expect(hand.k_q_j_cards?("K♦")).to_not eq false
-       expect(hand.k_q_j_cards?("Q♦")).to_not eq false
+      expect(hand.k_q_j_cards?("Q♦")).to_not eq false
     end
   end
 end
